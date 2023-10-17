@@ -1,0 +1,16 @@
+@media(max-width:768px){
+    .container>div{
+        width:100%;
+    }    
+    input{
+        width: 80%;
+    }
+}
+@media(min-width:769px) and (max-width:1200px){
+    .container>div{
+        width: 47%;
+    }
+    input{
+        width: 70%;
+    }
+}

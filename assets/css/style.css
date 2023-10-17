@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin: auto;
+    padding: 20px;
+}
+.container>div{
+    background-color: #e0d8d8;
+    width: 32%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 1px #beabab;
+    transition: 0.3s;
+}
+.container>div:hover{
+    transform: translateY(5px);
+}
+img{
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+.det{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.det>h3{
+    padding: 5px 15px;
+    margin: 15px 0px;
+    border-bottom: 1px solid black;
+}
+details{
+    padding: 5px 15px;
+}
+summary{
+    font-weight: bold;
+}
+button:first-child{
+    background-color: skyblue;
+}
+button{
+    background-color: red;
+    border: 0px;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+    background-color: gray;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+textarea{
+    resize: none;
+}
+.formfill{
+    margin: 25px;
+    /* border: 1px solid black; */
+    /* margin-bottom: 20px; */
+ 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 3px 1px #cec2c2;
+    padding: 30px;
+    background-color: #F1EBF9;
+    /* color: #fff; */
+}
+form>h2{
+    margin:10px 0px 20px 0px;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+input{
+    padding: 10px 0px;
+    width: 50%;
+    margin: 5px 0px 20px 0px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    background-color: transparent;
+}
+input:last-child{
+    border: 0;
+    border-radius: 20px;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input:last-child:hover{
+    background-color: #33B249;
+}
